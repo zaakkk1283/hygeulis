@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>five months, still you</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap');
+:root{--rose:#b87983;--ink:#59464a;--paper:#fffaf7;--pink:#f4e3e2;--muted:#987e80}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(145deg,#f8e9e7,#fffaf6 52%,#f2e2e4);color:var(--ink);font-family:'Plus Jakarta Sans',sans-serif;font-weight:300;min-height:100vh}
+main{max-width:760px;margin:auto;padding:26px 18px 60px}
+.hero{min-height:88vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;position:relative;overflow:hidden}
+.eyebrow{letter-spacing:.25em;text-transform:uppercase;font-size:10px;color:var(--muted)}
+h1,h2,.serif{font-family:'Cormorant Garamond',serif;font-weight:400}
+h1{font-size:clamp(48px,10vw,78px);line-height:.95;margin:22px 0 14px;color:#805c63}
+.subtitle{font-size:12px;letter-spacing:.12em;color:var(--muted);line-height:2}
+.flower{font-size:30px;color:#c58c94;margin:18px}
+button{border:1px solid #c99ba0;background:#fff9f7;color:#805c63;border-radius:30px;padding:13px 23px;font:400 11px 'Plus Jakarta Sans';letter-spacing:.12em;cursor:pointer;transition:.25s}
+button:hover{background:#efd9da;transform:translateY(-2px)}
+section{background:rgba(255,252,249,.78);border:1px solid rgba(190,145,149,.25);border-radius:22px;padding:28px 25px;margin:18px 0;box-shadow:0 12px 35px rgba(120,80,85,.06)}
+h2{font-size:36px;color:#805c63;margin:8px 0 16px}
+p{font-size:13px;line-height:2;color:#725f61}
+.small{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#ad8589}
+.note{background:#fff8f5;border-left:2px solid #d6aeb0;padding:15px 17px;margin:12px 0;border-radius:0 12px 12px 0}
+.note strong{font:italic 22px 'Cormorant Garamond';color:#956c73;font-weight:400}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.memory{background:#f7e9e6;padding:18px;border-radius:15px;min-height:115px}
+.memory span{font-size:20px}
+.memory p{font-size:12px;margin-bottom:0}
+.letter{font:italic 21px/1.7 'Cormorant Garamond';color:#76585e}
+.final{text-align:center;padding:38px 24px}
+.final h2{font-size:44px}
+.hidden{display:none}
+footer{text-align:center;color:#a98c8d;font-size:10px;letter-spacing:.12em;padding:25px}
+.petal{position:fixed;top:-30px;color:#c78e98;opacity:.45;pointer-events:none;animation:fall linear infinite;z-index:0}
+@keyframes fall{to{transform:translateY(110vh) rotate(360deg)}}
+@media(max-width:520px){section{padding:24px 19px}.grid{grid-template-columns:1fr 1fr}.memory{padding:13px}.letter{font-size:19px}}
+</style>
+</head>
+<body>
+<div id="petals"></div>
+<main>
+  <header class="hero">
+    <div class="eyebrow">a little something, just for you</div>
+    <div class="flower">✿</div>
+    <h1>five months,<br><i>still you.</i></h1>
+    <div class="subtitle">a small archive of us · for ujuj</div>
+    <p style="max-width:390px;margin:28px 0">Lima bulan, beberapa cerita yang sederhana, dan satu orang yang selalu ingin aku temui di antara hari-hariku.</p>
+    <button onclick="document.getElementById('start').scrollIntoView({behavior:'smooth'})">OPEN YOUR LITTLE SURPRISE</button>
+    <div class="flower" style="font-size:18px;margin-top:40px">♡</div>
+  </header>
+
+  <section id="start">
+    <div class="small">01 · five little things</div>
+    <h2>things i love about you</h2>
+    <p>Ada banyak hal yang aku suka dari kamu. Beberapa mungkin sederhana, tapi justru itu yang membuat semuanya terasa dekat.</p>
+    <div class="note"><strong>01. the way you care</strong><p>Caramu memperhatikan hal-hal kecil, bahkan ketika aku sendiri kadang lupa menjelaskannya.</p></div>
+    <div class="note"><strong>02. your patience</strong><p>Terima kasih sudah berusaha memahami aku, termasuk saat aku sedang sulit memahami diriku sendiri.</p></div>
+    <div class="note"><strong>03. your presence</strong><p>Kehadiranmu membuat hari biasa punya sesuatu yang ingin aku tunggu.</p></div>
+    <div class="note"><strong>04. our silly moments</strong><p>Tebak-tebakan, Roblox, obrolan random, dan tawa kecil yang ternyata jadi kenangan.</p></div>
+    <div class="note"><strong>05. simply, you</strong><p>Aku suka kamu bukan hanya karena hal-hal baik yang kamu punya, tapi karena kamu adalah kamu.</p></div>
+  </section>
+
+  <section>
+    <div class="small">02 · little memories</div>
+    <h2>our ordinary magic</h2>
+    <div class="grid">
+      <div class="memory"><span>☁</span><p>Obrolan panjang yang kadang tidak terasa sudah menghabiskan waktu berjam-jam.</p></div>
+      <div class="memory"><span>♡</span><p>Rasa kangen yang muncul bahkan setelah baru saja selesai telepon.</p></div>
+      <div class="memory"><span>✿</span><p>Main dan bercanda bersama, menciptakan dunia kecil milik kita sendiri.</p></div>
+      <div class="memory"><span>☾</span><p>Hari-hari ketika kita belajar memahami satu sama lain dengan lebih baik.</p></div>
+    </div>
+    <p style="margin-top:18px">Mungkin bagi orang lain ini cuma hal biasa. Tapi buat aku, hal-hal kecil seperti inilah yang membuat lima bulan kita punya arti.</p>
+  </section>
+
+  <section>
+    <div class="small">03 · a letter for you</div>
+    <h2>dear, ujuj.</h2>
+    <p class="letter">Aku kadang bingung bagaimana cara menjelaskan seberapa besar rasa sayangku ke kamu tanpa terdengar berlebihan. Rasanya, lima bulan ini menyimpan banyak hal yang ingin aku ucapkan, mulai dari terima kasih karena sudah hadir, sampai hal-hal kecil yang sering kali tidak sempat aku sampaikan.</p>
+    <p class="letter">Aku tahu aku bukan seseorang yang selalu mudah dimengerti. Ada saatnya aku diam, terlalu banyak berpikir, atau tidak tahu bagaimana menyampaikan apa yang sebenarnya aku rasakan. Tapi di balik semua itu, ada rasa sayang yang besar sekali untuk kamu. Aku ingin terus belajar menjadi tempat yang nyaman buat kamu, sebagaimana aku juga merasa nyaman saat bersamamu.</p>
+    <p class="letter">Terima kasih sudah menjadi bagian dari hari-hariku. Terima kasih untuk waktu, perhatian, kesabaran, dan semua cerita yang sudah kita kumpulkan. Aku tidak berharap hubungan kita selalu sempurna. Aku cuma ingin kita tetap saling memilih, saling mendengarkan, dan tidak berhenti mengusahakan satu sama lain.</p>
+    <p class="letter">Happy five months, sayang. Kalau nanti ada banyak bulan yang datang setelah ini, semoga aku masih punya kesempatan untuk merayakannya bersama kamu. Bukan karena semuanya akan selalu mudah, tapi karena kamu masih menjadi orang yang ingin aku ajak melewati semuanya.</p>
+    <p style="text-align:right;font:italic 23px 'Cormorant Garamond';color:#956c73">with all my love, me ♡</p>
+  </section>
+
+  <section>
+    <div class="small">04 · five wishes</div>
+    <h2>for the months ahead</h2>
+    <div class="note"><strong>01.</strong><p>Semoga kita selalu punya ruang untuk saling bercerita, bahkan tentang hal yang paling sederhana.</p></div>
+    <div class="note"><strong>02.</strong><p>Semoga kita semakin pandai memahami, bukan hanya ingin dimengerti.</p></div>
+    <div class="note"><strong>03.</strong><p>Semoga jarak tidak membuat kita lupa bahwa kita sedang berjalan ke arah yang sama.</p></div>
+    <div class="note"><strong>04.</strong><p>Semoga lebih banyak tawa, pengalaman baru, dan kenangan yang bisa kita simpan.</p></div>
+    <div class="note"><strong>05.</strong><p>Semoga kita tetap menjadi rumah yang saling ingin pulangi.</p></div>
+  </section>
+
+  <section class="final">
+    <div class="flower">♡</div>
+    <div class="small">05 · one last thing</div>
+    <h2>if i could choose again...</h2>
+    <p class="letter">I would still find my way to you.</p>
+    <p>Terima kasih sudah menjadi kamu, dan terima kasih sudah berjalan sejauh ini bersamaku. Lima bulan ini adalah salah satu bagian kecil dari cerita yang masih ingin aku lanjutkan.</p>
+    <h2 style="font-size:38px;margin-top:26px">happy 5 months, sayang.</h2>
+    <p style="font:italic 19px 'Cormorant Garamond';color:#956c73">it's you. still you. always someone i want to choose.</p>
+    <button onclick="document.getElementById('secret').classList.toggle('hidden')">ONE MORE LITTLE NOTE</button>
+    <p id="secret" class="hidden letter" style="margin-top:20px">P.S. kalau kamu sedang membaca ini, berarti ada satu orang yang sedang tersenyum jauh di sana karena punya kamu. aku sayang kamu, lebih dari yang sering berhasil aku ucapkan. ♡</p>
+  </section>
+  <footer>made with love · for our fifth month together</footer>
+</main>
+<script>
+const holder=document.getElementById('petals');
+for(let i=0;i<17;i++){let e=document.createElement('div');e.className='petal';e.textContent=['✿','❀','♡'][i%3];e.style.left=Math.random()*100+'vw';e.style.animationDuration=(12+Math.random()*15)+'s';e.style.animationDelay=(-Math.random()*20)+'s';e.style.fontSize=(10+Math.random()*13)+'px';holder.appendChild(e)}
+</script>
+</body>
+</html>
